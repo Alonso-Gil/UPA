@@ -48,21 +48,21 @@ export default () => {
     {
       imageSrc:
         Evento1,
-      subtitle: "Eventos Académicos",
-      title: "Conferencias y congresos",
+      subtitle: "Conferencias y congresos",
+      title: "Eventos Académicos",
       description:
         "Se mantiene un alto grado de compromiso con los alumnos, por ello se buscan distintos eventos en los que su asistencia pueda enriquecer el conocimiento de los temas relacionados con la carrera y sus innovaciones.",
-      url: ""
+      url: "https://www.upa.edu.mx/index.php/oferta_educativa/"
     },
 
     {
       imageSrc:
          Evento2,
-      subtitle: "",
-      title: "Excursiones profesionales",
+      subtitle: "Excursiones profesionales",
+      title: "Eventos Académicos",
       description:
         "Es importante que el conocimiento no sólo sea teórico, por lo tanto además de implementar materias prácticas en el plan de estudios, se estimula a los alumnos mediante excursiones a industrias del sector energético o aquellas que implementan procesos térmicos o eléctricos de interés.",
-      url: ""
+      url: "https://www.upa.edu.mx/index.php/oferta_educativa/"
     },
 
     {
@@ -72,7 +72,7 @@ export default () => {
       title: "Eventos recreativos",
       description:
         "Para este programa académico es realmente importante que además de formar profesionistas de excelencia en el ámbito académico, sean personas excepcionales con diferentes habilidades. Por este motivo, se organizan algunas actividades recreativas para fomentar la sana convivencia entre los alumnos al realizar actividades que fomenten trabajo en equipo, control de estrés, adaptación, entre otras.",
-      url: ""
+      url: "https://www.upa.edu.mx/index.php/oferta_educativa/"
     }
   ];
 
