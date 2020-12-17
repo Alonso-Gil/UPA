@@ -6,7 +6,7 @@ import { SectionHeading, Subheading as SubheadingBase } from "components/misc/He
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import TeamIllustrationSrc from "images/team-illustration-2.svg";
 import {ReactComponent as SvgDotPattern } from "images/dot-pattern.svg"
-import Mision from "images/mision.png";
+import Investigacion from "images/Investigación.jpg";
 
 
 const Container = tw.div`relative`;
@@ -51,7 +51,7 @@ export default ({
   ),
   //description = "Formar profesionistas agentes de cambio, capaces de transformar el mundo a través de una educación superior de excelencia tomando como base la sustentabilidad. Somos un programa académico pertinente, de excelencia académica, reconocido internacionalmente, que desarrolla y aplica conocimiento científico y tecnológico, con un alto impacto en la sociedad.",
   description = (<>Además de trabajar en una empresa, la carrera de Ingeniería en Energía cuenta con un gran rango en el área de investigación. En la universidad existen muchos profesionistas que se dedican a realizar nuevas investigaciones sobre determinados temas como son: biomasa, celdas de combustible, eficiencia energética, entre otros.</>),
-  imageSrc = Mision,
+  imageSrc = Investigacion,
   imageRounded = true,
   imageBorder = false,
   imageShadow = false,

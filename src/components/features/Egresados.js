@@ -6,7 +6,7 @@ import { SectionHeading, Subheading as SubheadingBase } from "components/misc/He
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import TeamIllustrationSrc from "images/team-illustration-2.svg";
 import {ReactComponent as SvgDotPattern } from "images/dot-pattern.svg"
-import Mision from "images/mision.png";
+import Egresados from "images/Egresados.jpeg";
 
 
 const Container = tw.div`relative`;
@@ -51,7 +51,7 @@ export default ({
   ),
   //description = "Formar profesionistas agentes de cambio, capaces de transformar el mundo a través de una educación superior de excelencia tomando como base la sustentabilidad. Somos un programa académico pertinente, de excelencia académica, reconocido internacionalmente, que desarrolla y aplica conocimiento científico y tecnológico, con un alto impacto en la sociedad.",
   description = (<>Es importante conocer las áreas de trabajo que podría tener esta carrera. En esta sección se enlistan algunos de los egresados con sus respectivos trabajos, con el objetivo de inspirar a nuevas generaciones y lograr un mayor auge en el sector energético de nuestro país.</>),
-  imageSrc = Mision,
+  imageSrc = Egresados,
   imageRounded = true,
   imageBorder = false,
   imageShadow = false,
