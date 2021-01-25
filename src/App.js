@@ -31,8 +31,7 @@ function App() {
       <Noticias/>
       <Mapa/>
       <Footer/>
-      
-      
+    
     </AnimationRevealPage>
   );
 }

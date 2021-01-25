@@ -8,7 +8,7 @@ import { SectionDescription } from "components/misc/Typography.js";
 import { ReactComponent as QuoteIconBase } from "images/quotes-l.svg"
 import { ReactComponent as ArrowLeftIcon } from "images/arrow-left-3-icon.svg"
 import { ReactComponent as ArrowRightIcon } from "images/arrow-right-3-icon.svg"
-import Mapa from 'images/UAA.jpg'
+import MapaUPA from 'images/MapaUPA.jpg';
 
 import "slick-carousel/slick/slick.css";
 
@@ -31,14 +31,16 @@ const TestimonialsSlider = styled(Slider)`
     ${tw`h-full`}
   }
 `;
-const Image = styled.div(`background-image: url("${Mapa}");`,
-  tw`rounded md:w-1/2 lg:w-5/12 xl:w-1/2 flex-shrink-0 h-80 md:h-144 bg-cover bg-center mx-4 sm:mx-8 md:mx-4 lg:mx-8`);
+const Image = styled.div(`background-image: url("${MapaUPA}");`,
+  tw`rounded flex-shrink-0 bg-cover bg-center mx-4 sm:mx-8 md:mx-4 lg:mx-8 justify-self-stretch bg-white`);
+
+  // md:w-1/2 lg:w-5/12 xl:w-1/2 h-80 md:h-144
 
 export default ({
   subheading = "",
   heading = "Mapa",
   description = "",
-  imageSrc=Mapa
+  imageSrc=MapaUPA
       
     
   
@@ -52,7 +54,7 @@ export default ({
           {subheading && <Subheading>{subheading}</Subheading>}
           <Heading>{heading}</Heading>
           <Description>{description}</Description>
-          <Image imageSrc={imageSrc} />
+          <Image><img src={imageSrc}/></Image>
         </HeadingContainer>
        
 

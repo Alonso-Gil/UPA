@@ -54,9 +54,6 @@ export default () => {
       <NavLink href="#">
         UPA
       </NavLink>
-    </NavLinks>,
-    <NavLinks key={2}>
-     
     </NavLinks>
   ];
 
