@@ -6,7 +6,7 @@ import { SectionHeading as HeadingTitle } from "../misc/Headings.js";
 import Evento1 from "images/Evento1.jpeg";
 import Evento3 from "images/Evento2.jpeg";
 import Evento2 from "images/Evento3.jpeg";
-
+import Modal from '../modals/Modal';
 const Container = tw.div`relative`;
 
 const SingleColumn = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
@@ -88,7 +88,7 @@ export default () => {
         </HeadingInfoContainer>
 
         <Content>
-          {cards.map((card, i) => (
+          {/* {cards.map((card, i) => (
             <Card key={i} reversed={i % 2 === 1}>
               <Image imageSrc={card.imageSrc} />
               <Details>
@@ -98,7 +98,34 @@ export default () => {
                 
               </Details>
             </Card>
-          ))}
+          // ))} */}
+          <Card >
+            <Image imageSrc={cards[0].imageSrc}/>
+            <Details>
+                <Subtitle>{cards[0].subtitle}</Subtitle>
+                <Title>{cards[0].title}</Title>
+                <Description>{cards[0].description}</Description>
+                <Modal/>
+              </Details>
+             
+          </Card>
+          
+          <Card reversed="true">
+            <Image imageSrc={cards[1].imageSrc}/>
+            <Details>
+                <Subtitle>{cards[1].subtitle}</Subtitle>
+                <Title>{cards[1].title}</Title>
+                <Description>{cards[1].description}</Description>
+              </Details>
+          </Card>
+          <Card>
+            <Image imageSrc={cards[2].imageSrc}/>
+            <Details>
+                <Subtitle>{cards[2].subtitle}</Subtitle>
+                <Title>{cards[2].title}</Title>
+                <Description>{cards[2].description}</Description>
+              </Details>
+          </Card>
         </Content>
       </SingleColumn>
       <SvgDotPattern1 />

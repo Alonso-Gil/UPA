@@ -32,8 +32,7 @@ const TestimonialsSlider = styled(Slider)`
   }
 `;
 const Image = styled.div(`background-image: url("${MapaUPA}");`,
-  tw`rounded flex-shrink-0 bg-cover bg-center mx-4 sm:mx-8 md:mx-4 lg:mx-8 justify-self-stretch bg-white`);
-
+tw`rounded flex-shrink-0 bg-cover bg-center mx-4 sm:mx-8 md:mx-4 lg:mx-8 justify-self-stretch `);
   // md:w-1/2 lg:w-5/12 xl:w-1/2 h-80 md:h-144
 
 export default ({
@@ -59,6 +58,8 @@ export default ({
        
 
       </ContentWithPaddingXl>
+     
     </PrimaryBackgroundContainer>
+   
   );
 };
