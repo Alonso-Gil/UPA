@@ -23,7 +23,7 @@ function App() {
       <Mision/>
       <PlanEstudios/>
       <ExpoEnergia />
-      <CapEstudiantil/>
+      {/* <CapEstudiantil/> */}
       <Certificacion />
       <Egresados/>
       <Movilidad/>

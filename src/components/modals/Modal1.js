@@ -11,6 +11,24 @@ import Congreso5 from "images/Congreso5.JPG";
 import Congreso6 from "images/Congreso6.JPG";
 import Congreso7 from "images/Congreso7.JPG";
 import Congreso8 from "images/Congreso8.JPG";
+import Congreso9 from "images/Congreso9.JPG";
+import Congreso10 from "images/Congreso10.JPG";
+import Congreso11 from "images/Congreso11.JPG";
+import Congreso12 from "images/Congreso12.JPG";
+import Congreso13 from "images/Congreso13.JPG";
+import Congreso14 from "images/Congreso14.JPG";
+import Congreso15 from "images/Congreso15.JPG";
+import Congreso16 from "images/Congreso16.JPG";
+import Congreso17 from "images/Congreso17.JPG";
+import Congreso18 from "images/Congreso18.JPG";
+import Congreso19 from "images/Congreso19.JPG";
+import Congreso20 from "images/Congreso20.jpg";
+import Congreso21 from "images/Congreso21.JPG";
+import Congreso22 from "images/Congreso22.JPG";
+import Congreso23 from "images/Congreso23.JPG";
+import Congreso24 from "images/Congreso24.JPG";
+import Congreso25 from "images/Congreso25.JPG";
+import Congreso26 from "images/Congreso26.JPG";
 
 const Modal = ({titulo}) => {
     const [showModal, setShowModal] = React.useState(false);
@@ -76,6 +94,72 @@ const Modal = ({titulo}) => {
                     </div>
                     <div>
                       <img src={Congreso8} />
+                    </div>
+                    <div>
+                      <img src={Congreso9} />
+                    </div>
+                  </div>
+                  <div tw="relative p-6 grid grid-cols-3 gap-4">
+                    <div>
+                      <img src={Congreso10} />
+                    </div>
+                    <div>
+                      <img src={Congreso11} />
+                    </div>
+                    <div>
+                      <img src={Congreso12} />
+                    </div>
+                  </div>
+                  <div tw="relative p-6 grid grid-cols-3 gap-4">
+                    <div>
+                      <img src={Congreso13} />
+                    </div>
+                    <div>
+                      <img src={Congreso14} />
+                    </div>
+                    <div>
+                      <img src={Congreso15} />
+                    </div>
+                  </div>
+                  <div tw="relative p-6 grid grid-cols-3 gap-4">
+                    <div>
+                      <img src={Congreso16} />
+                    </div>
+                    <div>
+                      <img src={Congreso17} />
+                    </div>
+                    <div>
+                      <img src={Congreso18} />
+                    </div>
+                  </div>
+                  <div tw="relative p-6 grid grid-cols-3 gap-4">
+                    <div>
+                      <img src={Congreso19} />
+                    </div>
+                    <div>
+                      <img src={Congreso20} />
+                    </div>
+                    <div>
+                      <img src={Congreso21} />
+                    </div>
+                  </div>
+                  <div tw="relative p-6 grid grid-cols-3 gap-4">
+                    <div>
+                      <img src={Congreso22} />
+                    </div>
+                    <div>
+                      <img src={Congreso23} />
+                    </div>
+                    <div>
+                      <img src={Congreso24} />
+                    </div>
+                  </div>
+                  <div tw="relative p-6 grid grid-cols-3 gap-4">
+                    <div>
+                      <img src={Congreso25} />
+                    </div>
+                    <div>
+                      <img src={Congreso26} />
                     </div>
                   </div>
                   <div tw="relative p-6 grid grid-cols-3 gap-4"></div>
