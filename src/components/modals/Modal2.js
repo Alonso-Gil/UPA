@@ -46,26 +46,26 @@ const Modal = ({titulo}) => {
                   </div>
                   {/*body*/}
 
-                  <div tw="relative p-6 grid grid-cols-3 gap-4">
+                  <div tw="relative p-6 grid grid-cols-3 gap-4 h-auto">
                     <div>
-                      <img src={Pro1} />
+                      <img tw="h-80 w-full"src={Pro1} />
                     </div>
                     <div>
-                      <img src={Pro2} />
+                      <img tw="h-80"src={Pro2} />
                     </div>
                     <div>
-                      <img src={Pro3} />
+                      <img tw="h-80"src={Pro3} />
                     </div>
                   </div>
                   <div tw="relative p-6 grid grid-cols-3 gap-4">
                     <div>
-                      <img src={Pro4} />
+                      <img tw="h-80" src={Pro4} />
                     </div>
                     <div>
-                      <img src={Pro5} />
+                      <img tw="h-80 w-full" src={Pro5} />
                     </div>
                     <div>
-                      <img src={Pro6} />
+                      <img tw="h-80" src={Pro6} />
                     </div>
                   </div>
                   <div tw="relative p-6 grid grid-cols-3 gap-4"></div>
