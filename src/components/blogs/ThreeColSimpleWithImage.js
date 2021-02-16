@@ -6,7 +6,8 @@ import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-
 import { ReactComponent as SvgDecoratorBlob2 } from "../../images/svg-decorator-blob-3.svg";
 import Certificado1 from 'images/ciees.png';
 import Certificado2 from 'images/cacei.jpg';
-
+import Modal4 from '../modals/Modal4';
+import Modal5 from '../modals/Modal5';
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
 const ThreeColumn = tw.div`flex flex-col items-center lg:items-stretch lg:flex-row flex-wrap text-gray-600`;
@@ -56,16 +57,25 @@ export default () => {
           
         </HeadingInfoContainer>
         <ThreeColumn>
-          {blogPosts.map((post, index) => (
-            <Column key={index}>
+
+            <Column>
               <Card>
-                <Image imageSrc={post.imageSrc} />
-                <Category>{post.category}</Category>
-                <Title>{post.title}</Title>
-                <Link href={post.url}>Ver Certificado</Link>
+                <Image imageSrc={blogPosts[0].imageSrc} />
+                <Category>{blogPosts[0].category}</Category>
+                <Title>{blogPosts[0].title}</Title>
+                <Modal4/>
               </Card>
             </Column>
-          ))}
+
+            <Column>
+              <Card>
+                <Image imageSrc={blogPosts[1].imageSrc} />
+                <Category>{blogPosts[1].category}</Category>
+                <Title>{blogPosts[1].title}</Title>
+                <Modal5/>
+              </Card>
+            </Column>
+
         </ThreeColumn>
       </Content>
       <DecoratorBlob1 />

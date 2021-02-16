@@ -7,7 +7,7 @@ import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import TeamIllustrationSrc from "images/team-illustration-2.svg";
 import {ReactComponent as SvgDotPattern } from "images/dot-pattern.svg"
 import Egresados from "images/Egresados.jpeg";
-
+import Modal6 from '../modals/Modal6';
 
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24 items-center`;
@@ -76,6 +76,7 @@ export default ({
             <Description>{description}</Description>
         
           </TextContent>
+          <Modal6/>
         </TextColumn>
       </TwoColumn>
     </Container>

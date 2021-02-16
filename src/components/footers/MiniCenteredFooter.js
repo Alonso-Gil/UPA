@@ -6,7 +6,7 @@ import logo from "../../images/UPA.png";
 import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "../../images/youtube-icon.svg";
-
+import { ReactComponent as InstagramIcon } from "../../images/instagram-logo.svg";
 
 const Container = tw(ContainerBase)`bg-white text-gray-100 -mx-8 -mb-8`
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
@@ -52,7 +52,7 @@ export default () => {
               <TwitterIcon />
             </SocialLink>
             <SocialLink href="https://youtube.com">
-              <YoutubeIcon />
+              <InstagramIcon />
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>

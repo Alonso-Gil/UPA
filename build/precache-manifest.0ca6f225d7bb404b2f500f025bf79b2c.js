@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d98d733d149f4ed63d769898d1458560",
+    "revision": "a2a29520b02b2e1992319841f5cd673a",
     "url": "/index.html"
   },
   {
-    "revision": "fe48c4b0cf6000a10faa",
+    "revision": "8a7791a837f1877c20ba",
     "url": "/static/css/2.da421de5.chunk.css"
   },
   {
-    "revision": "fe48c4b0cf6000a10faa",
-    "url": "/static/js/2.f77f4abc.chunk.js"
+    "revision": "8a7791a837f1877c20ba",
+    "url": "/static/js/2.d10b4c11.chunk.js"
   },
   {
     "revision": "a8b7f9925879c67c458b78e4fa827b7f",
-    "url": "/static/js/2.f77f4abc.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d10b4c11.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e17ea8080653aa68dd9c",
-    "url": "/static/js/main.1b98bb55.chunk.js"
+    "revision": "d3d45a0032ada9dacb5f",
+    "url": "/static/js/main.a9a12605.chunk.js"
   },
   {
     "revision": "1dafbc65f49a28dfe149",
@@ -28,8 +28,76 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Congreso1.362f883d.JPG"
   },
   {
+    "revision": "d03f0d31b15918d58c5fca22b77a4a1a",
+    "url": "/static/media/Congreso10.d03f0d31.JPG"
+  },
+  {
+    "revision": "298813dd3ba0ee864a946e04e69eb329",
+    "url": "/static/media/Congreso11.298813dd.JPG"
+  },
+  {
+    "revision": "ca70e76e67edb075a7aac8ede657d674",
+    "url": "/static/media/Congreso12.ca70e76e.JPG"
+  },
+  {
+    "revision": "c1f119dc19148f22863d6ec930cbdd58",
+    "url": "/static/media/Congreso13.c1f119dc.JPG"
+  },
+  {
+    "revision": "4b76df988dfc10c322c0161f8f97c70a",
+    "url": "/static/media/Congreso14.4b76df98.JPG"
+  },
+  {
+    "revision": "36dd3b75f9ebe137f8060494db0213ab",
+    "url": "/static/media/Congreso15.36dd3b75.JPG"
+  },
+  {
+    "revision": "8210df7dbdce2e99b9fce87fefcac60c",
+    "url": "/static/media/Congreso16.8210df7d.JPG"
+  },
+  {
+    "revision": "b4414758f989b7e4a72ecdd2309fdb24",
+    "url": "/static/media/Congreso17.b4414758.JPG"
+  },
+  {
+    "revision": "6c3ce1458ee3759efab151959e9f2270",
+    "url": "/static/media/Congreso18.6c3ce145.JPG"
+  },
+  {
+    "revision": "9ff2b9402d6c50e9e27f420f5d414107",
+    "url": "/static/media/Congreso19.9ff2b940.JPG"
+  },
+  {
     "revision": "0b0b7dcaca0bb26a149aba6d363744eb",
     "url": "/static/media/Congreso2.0b0b7dca.JPG"
+  },
+  {
+    "revision": "d150198655702c26b59e7e9d5064ff99",
+    "url": "/static/media/Congreso20.d1501986.jpg"
+  },
+  {
+    "revision": "1fc85d2fe6a24c49aaf557b1d5d47739",
+    "url": "/static/media/Congreso21.1fc85d2f.JPG"
+  },
+  {
+    "revision": "709dd9fca72e4249b6a2cf580a0049c2",
+    "url": "/static/media/Congreso22.709dd9fc.JPG"
+  },
+  {
+    "revision": "7d2ef24df7eb215cc2b911997351bc76",
+    "url": "/static/media/Congreso23.7d2ef24d.JPG"
+  },
+  {
+    "revision": "93f8c1a143d31a90721743c565619416",
+    "url": "/static/media/Congreso24.93f8c1a1.JPG"
+  },
+  {
+    "revision": "3b954d1b375f922b9cf911ab2197a398",
+    "url": "/static/media/Congreso25.3b954d1b.JPG"
+  },
+  {
+    "revision": "41a6edb0e22fda136056f8182b1604a5",
+    "url": "/static/media/Congreso26.41a6edb0.JPG"
   },
   {
     "revision": "b1aec8b2b63d39a32de88244a91615ee",
@@ -54,6 +122,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d868a8d53617ba80575433dd5427910b",
     "url": "/static/media/Congreso8.d868a8d5.JPG"
+  },
+  {
+    "revision": "470a601587d99148395fd13f9477d2f0",
+    "url": "/static/media/Congreso9.470a6015.JPG"
   },
   {
     "revision": "0588d2b8b274b091d9e02ff7cda9d009",
@@ -92,6 +164,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Movilidad.d9fd448a.jpg"
   },
   {
+    "revision": "b78759af27c6c4db7b85e10101be0dbd",
+    "url": "/static/media/Muertos1.b78759af.jpg"
+  },
+  {
+    "revision": "34b5dca4fa6bf1cb2432f975cf63dba3",
+    "url": "/static/media/Muertos2.34b5dca4.jpg"
+  },
+  {
+    "revision": "55eaec5c8774195db5c0bc055167245d",
+    "url": "/static/media/Muertos3.55eaec5c.jpg"
+  },
+  {
+    "revision": "ddbc5b5f2f0b70af08ef6031569cbc49",
+    "url": "/static/media/Muertos4.ddbc5b5f.JPG"
+  },
+  {
+    "revision": "c89fc96d5ab200634dd6b55f532857f6",
+    "url": "/static/media/Muertos5.c89fc96d.JPG"
+  },
+  {
     "revision": "a104ce291d8c3b3d217fabef5f010a67",
     "url": "/static/media/Noticia1.a104ce29.jpg"
   },
@@ -102,6 +194,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2aca6962224dd5d15f070caace61a88d",
     "url": "/static/media/Noticia3.2aca6962.jpg"
+  },
+  {
+    "revision": "a6b2e894ad559660c5955b0d375fff39",
+    "url": "/static/media/Pro1.a6b2e894.jpg"
+  },
+  {
+    "revision": "a945faff9adde57c27a866eabc943717",
+    "url": "/static/media/Pro2.a945faff.JPG"
+  },
+  {
+    "revision": "0b62824471a51f6640ffe102f52ccb8a",
+    "url": "/static/media/Pro3.0b628244.JPG"
+  },
+  {
+    "revision": "8bec8babf0d1ec0380ecbb555e667def",
+    "url": "/static/media/Pro4.8bec8bab.JPG"
+  },
+  {
+    "revision": "2289ecba6690745f3c505ffeab7064b1",
+    "url": "/static/media/Pro5.2289ecba.JPG"
+  },
+  {
+    "revision": "2c3e912416c4ce2fcafa6f5c3e11b8e7",
+    "url": "/static/media/Pro6.2c3e9124.jpg"
   },
   {
     "revision": "69453e91984a625fef95944fc8da74c4",
