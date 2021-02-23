@@ -50,7 +50,7 @@ export default () => {
     }
   ];
   return (
-    <Container>
+    <Container id='Certificacion'>
       <Content>
         <HeadingInfoContainer>
           <HeadingTitle>Certificación</HeadingTitle>

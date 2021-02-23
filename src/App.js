@@ -13,6 +13,7 @@ import Movilidad from "components/features/Movilidad.js";
 import Investigacion from "components/features/Investigacion.js"; 
 import Mapa from "components/testimonials/SimplePrimaryBackground.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
+import Organigrama from "components/testimonials/Organigrama.js"
 // import Header from "components/navbar/Header";
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Investigacion/>
       <Noticias/>
       <Mapa/>
+      <Organigrama/>
       <Footer/>
     
     </AnimationRevealPage>

@@ -39,20 +39,20 @@ const PrimaryAction = tw.button`rounded-full px-8 py-3 mt-10 text-sm sm:text-bas
 export default () => {
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="#">
-        Carrera
+      <NavLink href='#Plan'>
+        Plan de estudios
       </NavLink>
-      <NavLink href="#">
-        Calidad
+      <NavLink href="#Eventos">
+        Eventos
       </NavLink>
-      <NavLink href="#">
-        Oportunidad
+      <NavLink href="#Certificacion">
+        Certificación
       </NavLink>
-      <NavLink href="#">
+      <NavLink href="#Noticias">
         Noticias
       </NavLink>
-      <NavLink href="#">
-        UPA
+      <NavLink href="#Mapa">
+        Mapa
       </NavLink>
     </NavLinks>
   ];

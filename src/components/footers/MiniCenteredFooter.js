@@ -22,7 +22,7 @@ const Link = tw.a`border-b-2 text-black border-transparent hocus:text-blue-700 h
 
 const SocialLinksContainer = tw.div`mt-10`;
 const SocialLink = styled.a`
-  ${tw`cursor-pointer inline-block text-black hover:text-gray-500 transition duration-300 mx-4`}
+  ${tw`cursor-pointer inline-block text-black  transition duration-300 mx-4`}
   svg {
     ${tw`w-5 h-5`}
   }
@@ -38,20 +38,17 @@ export default () => {
             <LogoImg src={logo} />
           </LogoContainer>
           <LinksContainer>
-            <Link href="#">Carrera</Link>
-            <Link href="#">Calidad</Link>
-            <Link href="#">Oportunidades</Link>
-            <Link href="#">Noticias</Link>
-            <Link href="#">UPA</Link>
+            <Link href="#Plan">Plan de estudios</Link>
+            <Link href="#Eventos">Eventos</Link>
+            <Link href="#Certificacion">Certificación</Link>
+            <Link href="#Noticias">Noticias</Link>
+            <Link href="#Mapa">Mapa</Link>
           </LinksContainer>
           <SocialLinksContainer>
-            <SocialLink href="https://www.facebook.com/UniversidadPolitecnicaAguascalientes">
+            <SocialLink href="https://www.facebook.com/jonhf.aguirresamano">
               <FacebookIcon />
             </SocialLink>
-            <SocialLink href="https://twitter.com">
-              <TwitterIcon />
-            </SocialLink>
-            <SocialLink href="https://youtube.com">
+            <SocialLink href="https://www.instagram.com/">
               <InstagramIcon />
             </SocialLink>
           </SocialLinksContainer>
