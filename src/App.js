@@ -11,7 +11,7 @@ import Egresados from "components/informacion/Egresados.js";
 import Movilidad from "components/informacion/Movilidad.js"; 
 import Investigacion from "components/informacion/Investigacion.js"; 
 import Mapa from "components/mapa/Mapa.js";
-import Footer from "components/footers/MiniCenteredFooter.js";
+import Footer from "components/footer/Footer.js";
 import Organigrama from "components/organigrama/Organigrama.js"
 // Componente principal donde estan acomodados en orden de presentacion los componentes para su renderizacion
 function App() {
