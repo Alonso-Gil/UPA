@@ -1,3 +1,7 @@
+// Este componente es el encargado de desplegar la informacion acerca de la movilidad
+//En dado caso de querer cambiar la/las imagen/es , solo hacer la importacion como aparece abajo
+//guardar la imagen en el apartado correspondiende y poner nombre de imagen junto con su correcta 
+//extencion (png,jpeg,etc)
 import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
@@ -5,7 +9,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import {ReactComponent as SvgDotPattern } from "images/dot-pattern.svg"
-import Movilidad from "images/Movilidad.jpg";
+import Movilidad from "images/movilidad/Movilidad.jpg";
 
 
 const Container = tw.div`relative`;
@@ -40,7 +44,7 @@ const PrimaryButton = styled(PrimaryButtonBase)(props => [
   props.buttonRounded && tw`rounded-full`
 ]);
 
-
+// en esta seccion es en donde se puede cambiar la descripcion o la imagen
 export default ({
   
   heading = (
@@ -48,7 +52,6 @@ export default ({
       Movilidad
     </>
   ),
-  //description = "Formar profesionistas agentes de cambio, capaces de transformar el mundo a través de una educación superior de excelencia tomando como base la sustentabilidad. Somos un programa académico pertinente, de excelencia académica, reconocido internacionalmente, que desarrolla y aplica conocimiento científico y tecnológico, con un alto impacto en la sociedad.",
   description = (<>La universidad apoya a sus alumnos en todo momento, sobre todo en cuanto a intercambios académicos se trata, ya que cambiar de sitio es conocer nuevas costumbres con diferentes maneras de pensar y en el ámbito profesional esto es de gran ayuda, ya que pensar desde otra perspectiva siempre es beneficioso. Gracias a esto, es posible realizar parte del programa académico en otra universidad nacional o internacional.</>),
   imageSrc = Movilidad,
   imageRounded = true,
@@ -59,7 +62,6 @@ export default ({
   imageDecoratorBlobCss = null,
   textOnLeft = false
 }) => {
-  // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
 
   return (
     <Container>

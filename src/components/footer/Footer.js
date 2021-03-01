@@ -1,3 +1,9 @@
+// Este componente es el ultimo que aparece de la pagina, ese encargado de poner links a cualquier apartado de la pagina
+// al presionar alguno de ellos te redirige al apartado deseado
+// si se desea agregar una red social hacer un import como los que ya estan importado, ojo al formato SVG
+//En dado caso de querer cambiar la/las imagen/es , solo hacer la importacion como aparece abajo
+//guardar la imagen en el apartado correspondiende y poner nombre de imagen junto con su correcta 
+//extencion (png,jpeg,etc)
 import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
@@ -25,7 +31,7 @@ const SocialLink = styled.a`
     ${tw`w-5 h-5`}
   }
 `;
-
+//En este apartado aparecen los respectivos links, junto con sus imagenes de las redes sociales
 const CopyrightText = tw.p`text-center mt-10 font-medium tracking-wide text-sm text-gray-600`
 export default () => {
   return (

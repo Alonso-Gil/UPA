@@ -1,3 +1,7 @@
+//Este componente es el encargado de mostrar el titulo e imagen del mapa 
+//En dado caso de querer cambiar la/las imagen/es , solo hacer la importacion como aparece abajo
+//guardar la imagen en el apartado correspondiende y poner nombre de imagen junto con su correcta 
+//extencion (png,jpeg,etc)
 import React, {useState} from "react";
 import Slider from "react-slick";
 import tw from "twin.macro";
@@ -5,10 +9,7 @@ import styled, { css } from "styled-components/macro"; //eslint-disable-line
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { SectionDescription } from "components/misc/Typography.js";
-import { ReactComponent as QuoteIconBase } from "images/quotes-l.svg"
-import { ReactComponent as ArrowLeftIcon } from "images/arrow-left-3-icon.svg"
-import { ReactComponent as ArrowRightIcon } from "images/arrow-right-3-icon.svg"
-import MapaUPA from 'images/MapaUPA.jpg';
+import MapaUPA from 'images/mapa/MapaUPA.jpg';
 
 import "slick-carousel/slick/slick.css";
 
@@ -18,22 +19,10 @@ const HeadingContainer = tw.div``;
 const Subheading = tw(SubheadingBase)`text-center text-gray-100 mb-4`;
 const Heading = tw(SectionHeading)``;
 const Description = tw(SectionDescription)`mx-auto text-center text-gray-300`;
-
-const TestimonialsSlider = styled(Slider)`
-  ${tw`flex mt-16 mx-auto max-w-xs sm:max-w-xl lg:max-w-4xl text-left bg-gray-100 rounded-lg text-gray-900`}
-  .slick-track {
-    ${tw`flex!`}
-  }
-  .slick-slide {
-    ${tw`h-auto`}
-  }
-  .slick-slide > div {
-    ${tw`h-full`}
-  }
-`;
+// En este apratado es en dodnde si se desea se puede cambiar la imagen del mapa
 const Image = styled.div(`background-image: url("${MapaUPA}");`,
 tw`rounded flex-shrink-0 bg-cover bg-center mx-4 sm:mx-8 md:mx-4 lg:mx-8 justify-self-stretch `);
-  // md:w-1/2 lg:w-5/12 xl:w-1/2 h-80 md:h-144
+  
 
 export default ({
   subheading = "",

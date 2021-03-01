@@ -1,3 +1,7 @@
+//Este componente es el primero que aparce, tiene los links que redirigen a cualquier de los apartados establecidos en el nombre
+//En dado caso de querer cambiar la imagen de fondo o presentacion, solo hacer la importacion como aparece abajo
+//guardar la imagen en el apartado correspondiende y poner nombre de imagen junto con su correcta extencion (png,jpeg,etc)
+
 import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";

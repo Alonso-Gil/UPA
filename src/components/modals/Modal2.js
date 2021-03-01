@@ -1,14 +1,18 @@
+//Este modal es el 2 de 3 del apartado de eventos academos, solo despliega las imagenes que se desean mostrar
+//En dado caso de querer cambiar la/las imagen/es , solo hacer la importacion como aparece abajo
+//guardar la imagen en el apartado correspondiende y poner nombre de imagen junto con su correcta 
+//extencion (png,jpeg,etc)
 import React from 'react';
 import { Fragment } from 'react';
 import Slider from "react-slick";
 import tw from "twin.macro";
 import styled, { css } from "styled-components/macro";
-import Pro1 from "images/Pro1.jpg";
-import Pro2 from "images/Pro2.JPG";
-import Pro3 from 'images/Pro3.JPG';
-import Pro4 from "images/Pro4.JPG";
-import Pro5 from "images/Pro5.JPG"; 
-import Pro6 from "images/Pro6.jpg";
+import Pro1 from "images/modal2-proyectos/Pro1.jpg";
+import Pro2 from "images/modal2-proyectos/Pro2.JPG";
+import Pro3 from 'images/modal2-proyectos/Pro3.JPG';
+import Pro4 from "images/modal2-proyectos/Pro4.JPG";
+import Pro5 from "images/modal2-proyectos/Pro5.JPG"; 
+import Pro6 from "images/modal2-proyectos/Pro6.jpg";
 
 const Modal = ({titulo}) => {
     const [showModal, setShowModal] = React.useState(false);

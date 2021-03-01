@@ -1,10 +1,14 @@
+// Este modal es el encargado de desplegar la imagen del certificado Ciees
+//En dado caso de querer cambiar la/las imagen/es , solo hacer la importacion como aparece abajo
+//guardar la imagen en el apartado correspondiende y poner nombre de imagen junto con su correcta 
+//extencion (png,jpeg,etc)
 import React from 'react';
 import { Fragment } from 'react';
 import Slider from "react-slick";
 import tw from "twin.macro";
 import styled, { css } from "styled-components/macro";
-import CCiees from "images/CertificadoCiees.png";
-import CCacei from "images/CertificadoCacei.png";
+import CCiees from "images/certificacion/modal-ciees/CertificadoCiees.png";
+
 
 
 const Modal4 = ({titulo}) => {
@@ -19,7 +23,7 @@ const Modal4 = ({titulo}) => {
           style={{ transition: "all .15s ease" }}
           onClick={() => setShowModal(true)}
         >
-          Galería
+          Certificado
         </button>
         {showModal ? (
           <>

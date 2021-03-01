@@ -1,3 +1,9 @@
+//En este aparatado se despliega la imagen del organigrama 
+//En dado caso de querer cambiar la/las imagen/es , solo hacer la importacion como aparece abajo
+//guardar la imagen en el apartado correspondiende y poner nombre de imagen junto con su correcta 
+//extencion (png,jpeg,etc)
+
+
 import React, {useState} from "react";
 import Slider from "react-slick";
 import tw from "twin.macro";
@@ -5,10 +11,7 @@ import styled, { css } from "styled-components/macro"; //eslint-disable-line
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { SectionDescription } from "components/misc/Typography.js";
-import { ReactComponent as QuoteIconBase } from "images/quotes-l.svg"
-import { ReactComponent as ArrowLeftIcon } from "images/arrow-left-3-icon.svg"
-import { ReactComponent as ArrowRightIcon } from "images/arrow-right-3-icon.svg"
-import Organigrama from 'images/Organigrama.png';
+import Organigrama from 'images/organigrama/Organigrama.png';
 
 import "slick-carousel/slick/slick.css";
 
@@ -19,18 +22,7 @@ const Subheading = tw(SubheadingBase)`text-center text-gray-100 mb-4`;
 const Heading = tw(SectionHeading)``;
 const Description = tw(SectionDescription)`mx-auto text-center text-gray-300`;
 
-const TestimonialsSlider = styled(Slider)`
-  ${tw`flex mt-16 mx-auto max-w-xs sm:max-w-xl lg:max-w-4xl text-left bg-gray-100 rounded-lg text-gray-900`}
-  .slick-track {
-    ${tw`flex!`}
-  }
-  .slick-slide {
-    ${tw`h-auto`}
-  }
-  .slick-slide > div {
-    ${tw`h-full`}
-  }
-`;
+//En este apartado es en donde se pone el nombre de la importacion realizada 
 const Image = styled.div(`background-image: url("${Organigrama}");`,
 tw`rounded flex-shrink-0 bg-cover bg-center mx-4 sm:mx-8 md:mx-4 lg:mx-8 justify-self-stretch `);
   // md:w-1/2 lg:w-5/12 xl:w-1/2 h-80 md:h-144
@@ -44,8 +36,7 @@ export default ({
     
   
 }) => {
-  const [sliderRef, setSliderRef] = useState(null)
-
+  
   return (
     <PrimaryBackgroundContainer>
       <ContentWithPaddingXl>

@@ -1,3 +1,7 @@
+// Este componente muestra la informacion del apartado de "Informacion"
+//En dado caso de querer cambiar la/las imagen/es , solo hacer la importacion como aparece abajo
+//guardar la imagen en el apartado correspondiende y poner nombre de imagen junto con su correcta 
+//extencion (png,jpeg,etc)
 import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
@@ -40,7 +44,7 @@ const PrimaryButton = styled(PrimaryButtonBase)(props => [
   props.buttonRounded && tw`rounded-full`
 ]);
 
-
+// En esta parte es en donde si se desea se puede camiar la descripcion o imagen 
 export default ({
   
   heading = (
@@ -48,7 +52,6 @@ export default ({
       Investigación
     </>
   ),
-  //description = "Formar profesionistas agentes de cambio, capaces de transformar el mundo a través de una educación superior de excelencia tomando como base la sustentabilidad. Somos un programa académico pertinente, de excelencia académica, reconocido internacionalmente, que desarrolla y aplica conocimiento científico y tecnológico, con un alto impacto en la sociedad.",
   description = (<>Además de trabajar en una empresa, la carrera de Ingeniería en Energía cuenta con un gran rango en el área de investigación. En la universidad existen muchos profesionistas que se dedican a realizar nuevas investigaciones sobre determinados temas como son: biomasa, celdas de combustible, eficiencia energética, entre otros.</>),
   imageSrc = Investigacion,
   imageRounded = true,
@@ -59,7 +62,6 @@ export default ({
   imageDecoratorBlobCss = null,
   textOnLeft = true
 }) => {
-  // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
 
   return (
     <Container>

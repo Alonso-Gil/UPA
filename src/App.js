@@ -1,3 +1,5 @@
+//Acerca de las imagenes, cada imagen debe estar en su carpeta correspondiente
+//las imagenes que no estan en carpetan son propias del sistema
 import React from "react"
 import "tailwindcss/dist/base.css"
 import AnimationRevealPage from "helpers/AnimationRevealPage" // Componente para renderizar, todos los componentes tienen que estar dentro de el

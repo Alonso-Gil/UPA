@@ -1,35 +1,38 @@
+//En dado caso de querer cambiar la/las imagen/es , solo hacer la importacion como aparece abajo
+//guardar la imagen en el apartado correspondiende y poner nombre de imagen junto con su correcta 
+//extencion (png,jpeg,etc)
 import React from 'react';
 import { Fragment } from 'react';
 import Slider from "react-slick";
 import tw from "twin.macro";
 import styled, { css } from "styled-components/macro";
-import Congreso1 from "images/Congreso1.JPG";
-import Congreso2 from "images/Congreso2.JPG";
-import Congreso4 from 'images/Congreso4.JPG';
-import Congreso3 from "images/Congreso3.JPG";
-import Congreso5 from "images/Congreso5.JPG"; 
-import Congreso6 from "images/Congreso6.JPG";
-import Congreso7 from "images/Congreso7.JPG";
-import Congreso8 from "images/Congreso8.JPG";
-import Congreso9 from "images/Congreso9.JPG";
-import Congreso10 from "images/Congreso10.JPG";
-import Congreso11 from "images/Congreso11.JPG";
-import Congreso12 from "images/Congreso12.JPG";
-import Congreso13 from "images/Congreso13.JPG";
-import Congreso14 from "images/Congreso14.JPG";
-import Congreso15 from "images/Congreso15.JPG";
-import Congreso16 from "images/Congreso16.JPG";
-import Congreso17 from "images/Congreso17.JPG";
-import Congreso18 from "images/Congreso18.JPG";
-import Congreso19 from "images/Congreso19.JPG";
-import Congreso20 from "images/Congreso20.jpg";
-import Congreso21 from "images/Congreso21.JPG";
-import Congreso22 from "images/Congreso22.JPG";
-import Congreso23 from "images/Congreso23.JPG";
-import Congreso24 from "images/Congreso24.JPG";
-import Congreso25 from "images/Congreso25.JPG";
-import Congreso26 from "images/Congreso26.JPG";
-
+import Congreso1 from "images/modal1-congreso/Congreso1.JPG";
+import Congreso2 from "images/modal1-congreso/Congreso2.JPG";
+import Congreso4 from 'images/modal1-congreso/Congreso4.JPG';
+import Congreso3 from "images/modal1-congreso/Congreso3.JPG";
+import Congreso5 from "images/modal1-congreso/Congreso5.JPG"; 
+import Congreso6 from "images/modal1-congreso/Congreso6.JPG";
+import Congreso7 from "images/modal1-congreso/Congreso7.JPG";
+import Congreso8 from "images/modal1-congreso/Congreso8.JPG";
+import Congreso9 from "images/modal1-congreso/Congreso9.JPG";
+import Congreso10 from "images/modal1-congreso/Congreso10.JPG";
+import Congreso11 from "images/modal1-congreso/Congreso11.JPG";
+import Congreso12 from "images/modal1-congreso/Congreso12.JPG";
+import Congreso13 from "images/modal1-congreso/Congreso13.JPG";
+import Congreso14 from "images/modal1-congreso/Congreso14.JPG";
+import Congreso15 from "images/modal1-congreso/Congreso15.JPG";
+import Congreso16 from "images/modal1-congreso/Congreso16.JPG";
+import Congreso17 from "images/modal1-congreso/Congreso17.JPG";
+import Congreso18 from "images/modal1-congreso/Congreso18.JPG";
+import Congreso19 from "images/modal1-congreso/Congreso19.JPG";
+import Congreso20 from "images/modal1-congreso/Congreso20.jpg";
+import Congreso21 from "images/modal1-congreso/Congreso21.JPG";
+import Congreso22 from "images/modal1-congreso/Congreso22.JPG";
+import Congreso23 from "images/modal1-congreso/Congreso23.JPG";
+import Congreso24 from "images/modal1-congreso/Congreso24.JPG";
+import Congreso25 from "images/modal1-congreso/Congreso25.JPG";
+import Congreso26 from "images/modal1-congreso/Congreso26.JPG";
+// Este es el modal del apartado de "Eventos Academicos" 1 de 3 partes
 const Modal = ({titulo}) => {
     const [showModal, setShowModal] = React.useState(false);
 

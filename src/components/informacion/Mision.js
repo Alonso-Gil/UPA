@@ -1,5 +1,7 @@
 //Este componente lo que hace es deplegar la informacion de mision y vision
-
+//En dado caso de querer cambiar la/las imagen/es , solo hacer la importacion como aparece abajo
+//guardar la imagen en el apartado correspondiende y poner nombre de imagen junto con su correcta 
+//extencion (png,jpeg,etc)
 import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";

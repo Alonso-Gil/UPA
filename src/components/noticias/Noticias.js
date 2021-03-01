@@ -1,8 +1,13 @@
+// Este componente es el encargado de las noticias, en donde ahora se encuentran solo noticias ficticias
+//En dado caso de querer cambiar la/las imagen/es , solo hacer la importacion como aparece abajo
+//guardar la imagen en el apartado correspondiende y poner nombre de imagen junto con su correcta 
+//extencion (png,jpeg,etc)
 import React from "react";
 import Slider from "react-slick";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
+//Estas importaciones son solo las flechas que aparecen en este apartado, junto con otros estilos
 import { SectionHeading as HeadingTitle } from "../misc/Headings.js";
 import { ReactComponent as QuotesLeftIcon } from "../../images/quotes-l.svg";
 import { ReactComponent as QuotesRightIcon } from "../../images/quotes-r.svg";
@@ -10,10 +15,10 @@ import { ReactComponent as ArrowLeftIcon } from "../../images/arrow-left-2-icon.
 import { ReactComponent as ArrowRightIcon } from "../../images/arrow-right-2-icon.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-4.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "../../images/svg-decorator-blob-5.svg";
-
-import Noticia1 from 'images/Noticia1.jpg';
-import Noticia2 from 'images/Noticia2.jpg';
-import Noticia3 from 'images/Noticia3.jpg';
+// Esta es la manera de importar imagenes deseadas para las noticias 
+import Noticia1 from 'images/noticias/Noticia1.jpg';
+import Noticia2 from 'images/noticias/Noticia2.jpg';
+import Noticia3 from 'images/noticias/Noticia3.jpg';
 
 import "slick-carousel/slick/slick.css";
 
@@ -75,8 +80,10 @@ const DecoratorBlob2 = tw(
 
 export default () => {
   /*
-   * You can modify the testimonials shown by modifying the array below
-   * You can add or remove objects from the array as you need.
+    Este es el martado donde se tiene que poner las importaciones de las imagenes necesarias
+    en donde "imageSrc" es donde va el nombre de la importacion que se hizo, "quote" pertenece a la descripcion
+    "customerName" al autor o pie de la noticia, "customerTitle" igual es perteneciente al pie de pagina,
+    en caso de no quererlo solo pone "" (comillas vacias)
    */
   const testimonials = [
     {

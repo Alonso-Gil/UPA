@@ -1,6 +1,8 @@
 // Este componente es el encargado de desplegar la informacion de expo
 // Cada apartado tiene su modal en el cual se despliegan sus correspondientes imagenes
-
+//En dado caso de querer cambiar la/las imagen/es , solo hacer la importacion como aparece abajo
+//guardar la imagen en el apartado correspondiende y poner nombre de imagen junto con su correcta 
+//extencion (png,jpeg,etc)
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
@@ -47,7 +49,7 @@ const SvgDotPattern3 = tw(
 const SvgDotPattern4 = tw(
   SvgDotPatternIcon
 )`absolute bottom-0 right-0 transform translate-x-20 rotate-90 -translate-y-24 -z-10 opacity-25 text-primary-500 fill-current w-24`;
-//En este aparatado se cambia los titrulos o descripciones de cada apartado 
+//En este aparatado se cambia los titulos o descripciones de cada apartado 
 export default () => {
   const cards = [
     {
@@ -93,17 +95,6 @@ export default () => {
         </HeadingInfoContainer>
 
         <Content>
-          {/* {cards.map((card, i) => (
-            <Card key={i} reversed={i % 2 === 1}>
-              <Image imageSrc={card.imageSrc} />
-              <Details>
-                <Subtitle>{card.subtitle}</Subtitle>
-                <Title>{card.title}</Title>
-                <Description>{card.description}</Description>
-                
-              </Details>
-            </Card>
-          // ))} */}
           <Card >
             <Image imageSrc={cards[0].imageSrc}/>
             <Details>

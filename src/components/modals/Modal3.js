@@ -1,13 +1,17 @@
+//Este apartado es el modal 3 de 3, solo es el encargado de mostrar las imagenes
+//En dado caso de querer cambiar la/las imagen/es , solo hacer la importacion como aparece abajo
+//guardar la imagen en el apartado correspondiende y poner nombre de imagen junto con su correcta 
+//extencion (png,jpeg,etc)
 import React from 'react';
 import { Fragment } from 'react';
 import Slider from "react-slick";
 import tw from "twin.macro";
 import styled, { css } from "styled-components/macro";
-import Muertos1 from "images/Muertos1.jpg";
-import Muertos2 from "images/Muertos2.jpg";
-import Muertos3 from 'images/Muertos3.jpg';
-import Muertos4 from "images/Muertos4.JPG";
-import Muertos5 from "images/Muertos5.JPG"; 
+import Muertos1 from "images/modal3-eventos/Muertos1.jpg";
+import Muertos2 from "images/modal3-eventos/Muertos2.jpg";
+import Muertos3 from 'images/modal3-eventos/Muertos3.jpg';
+import Muertos4 from "images/modal3-eventos/Muertos4.JPG";
+import Muertos5 from "images/modal3-eventos/Muertos5.JPG"; 
 
 const Modal = ({titulo}) => {
     const [showModal, setShowModal] = React.useState(false);

@@ -1,21 +1,25 @@
+// Este componente es el encargado de mencionar las certificaciones con su respectiva imagen
+// Cuenta con dos modales, cada uno es un boton que despliega sus imagenes correspondientes
+//En dado caso de querer cambiar la/las imagen/es , solo hacer la importacion como aparece abajo
+//guardar la imagen en el apartado correspondiende y poner nombre de imagen junto con su correcta 
+//extencion (png,jpeg,etc)
 import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { SectionHeading as HeadingTitle } from "../misc/Headings.js";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "../../images/svg-decorator-blob-3.svg";
-import Certificado1 from 'images/ciees.png';
-import Certificado2 from 'images/cacei.jpg';
+import Certificado1 from 'images/certificacion/ciees.png';
+import Certificado2 from 'images/certificacion/cacei.jpg';
 import Modal4 from '../modals/Modal4';
 import Modal5 from '../modals/Modal5';
+
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
 const ThreeColumn = tw.div`flex flex-col items-center lg:items-stretch lg:flex-row flex-wrap text-gray-600`;
 const Column = tw.div`mt-24 lg:w-1/2`;
 
 const HeadingInfoContainer = tw.div`flex flex-col items-center`;
-const HeadingDescription = tw.p`mt-4 font-medium text-gray-600 text-center max-w-sm`;
-
 const Card = tw.div`lg:mx-4 xl:mx-8 max-w-sm lg:max-w-lg lg:max-h-full`;
 const Image = styled.div(props => [
   `background-image: url("${props.imageSrc}");`,
@@ -23,7 +27,7 @@ const Image = styled.div(props => [
 ]);
 const Category = tw.div`mt-4 text-secondary-100 font-bold text-sm`;
 const Title = tw.h4`mt-2 leading-relaxed font-bold text-lg text-justify`;
-const Link = tw.a`inline-block mt-2 text-sm text-blue-700 font-bold cursor-pointer transition duration-300 border-b-2 border-transparent hover:border-blue-700`;
+
 
 const DecoratorBlob1 = tw(
   SvgDecoratorBlob1
@@ -31,6 +35,8 @@ const DecoratorBlob1 = tw(
 const DecoratorBlob2 = tw(
   SvgDecoratorBlob2
 )`-z-10 absolute top-0 left-0 w-48 h-48 transform -translate-x-32 translate-y-full opacity-25`;
+
+// En este apartado se tiene la infomacion que se muestra en pantalla
 
 export default () => {
   const blogPosts = [

@@ -1,19 +1,24 @@
+// este modal despliega las instituaciones con las que se tiene convenio
+// solo despliega imagenes
+//En dado caso de querer cambiar la/las imagen/es , solo hacer la importacion como aparece abajo
+//guardar la imagen en el apartado correspondiende y poner nombre de imagen junto con su correcta 
+//extencion (png,jpeg,etc)
 import React from "react";
 import { Fragment } from "react";
 import Slider from "react-slick";
 import tw from "twin.macro";
 import styled, { css } from "styled-components/macro";
-import Ins1 from "images/Ins1.png";
-import Ins2 from "images/Ins2.png";
-import Ins3 from "images/Ins3.png";
-import Ins4 from "images/Ins4.png";
-import Ins5 from "images/Ins5.png";
-import Ins6 from "images/Ins6.png";
-import Ins7 from "images/Ins7.png";
-import Ins8 from "images/Ins8.png";
-import Ins9 from "images/Ins9.png";
-import Ins10 from "images/Ins10.png";
-import Ins11 from "images/Ins11.png";
+import Ins1 from "images/modal6-instituciones/Ins1.png";
+import Ins2 from "images/modal6-instituciones/Ins2.png";
+import Ins3 from "images/modal6-instituciones/Ins3.png";
+import Ins4 from "images/modal6-instituciones/Ins4.png";
+import Ins5 from "images/modal6-instituciones/Ins5.png";
+import Ins6 from "images/modal6-instituciones/Ins6.png";
+import Ins7 from "images/modal6-instituciones/Ins7.png";
+import Ins8 from "images/modal6-instituciones/Ins8.png";
+import Ins9 from "images/modal6-instituciones/Ins9.png";
+import Ins10 from "images/modal6-instituciones/Ins10.png";
+import Ins11 from "images/modal6-instituciones/Ins11.png";
 
 
 const Modal6 = ({ titulo }) => {
